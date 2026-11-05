@@ -1,2 +1,0 @@
-ranches']:
-        print(i['name'])
