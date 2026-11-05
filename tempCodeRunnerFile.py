@@ -1,0 +1,2 @@
+ranches']:
+        print(i['name'])
