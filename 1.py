@@ -31,3 +31,15 @@
 # print(search_by_genre(cinema, "Drama"))
 # print(search_by_genre(cinema, "Komediya"))
 
+
+# 3--------------------------
+# def merge_unique_ids(active_users: list, new_users: list) -> list:
+#     natija = list(set(active_users + new_users))
+#     natija.sort()
+
+#     return natija
+        
+# active_users = ['U1001', 'U1002', 'U1003', 'U1004', 'U1001'] 
+# new_users = ['U1003', 'U1005', 'U1006', 'U1002', 'U1007']
+
+# print((merge_unique_ids(active_users, new_users)))
