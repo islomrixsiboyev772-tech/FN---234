@@ -64,3 +64,24 @@
 #     ('Qulupnay', '35000', '10')
 # ]
 # print(sorted_by_price(products))
+
+
+# 5---------------------------
+
+def are_numbers_ascending(text: str) -> bool:
+    sonlar = []
+
+    for i in text.split():
+        if i.isdigit():
+            sonlar.append(int(i))
+
+    for i in range(len(sonlar) - 1):
+        if sonlar[i] >= sonlar[i + 1]:
+            return False
+
+    return True
+
+
+print(are_numbers_ascending("1 qutida 5 ta yashil, 9 ta qizil, 12 ta sariq top bor edi"))
+print(are_numbers_ascending("musobaqada 5 ga 5 korinishida oyinlar otkazildi"))
+print(are_numbers_ascending("26 oquvchidan 3 tasi 5 baxo oldi"))
